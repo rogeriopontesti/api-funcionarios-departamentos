@@ -40,3 +40,11 @@ Vamos desenvolver uma pequena API REST para gerenciamento de funcionários e dep
 
 [![Spring Initializr](https://i.postimg.cc/wv8SzYDd/start-spring-io-funcionarios-departamentos.png)](https://start.spring.io/)
 
+- Diagrama de classes
+
+[![Diagrama de classes](https://i.postimg.cc/tCDtWstM/1.png)](https://start.spring.io/)
+
+- Tabelas
+
+[![Tabelas](https://i.postimg.cc/W3FT6qk6/2.png)](https://start.spring.io/)
+

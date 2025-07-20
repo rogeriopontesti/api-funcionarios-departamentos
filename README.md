@@ -11,6 +11,7 @@
 [![rogeriopontesti no Gmail](https://i.postimg.cc/bN6mzf12/7089163-gmail-google-icon.png)](mailto:rogeriopontesti@gmail.com)
 [![rogeriopontesti no WhatsApp](https://i.postimg.cc/SKtXsVDd/1783351-chatting-messages-social-media-whatsapp-internet-icon.png)](https://wa.me/5548991877781)
 
+##
 ### Pré-requisitos
 
 - Lógica de programação (qualquer linguagem)
@@ -18,6 +19,20 @@
 - Ferramentas
     - IDE de sua preferência
     - Postman
+
+### Objetivos da Aula
+
+- Reforçar os principais fundamentos de programação
+- Aplicar esses conceitos na prática, por meio de exercícios guiados
+- Desenvolver um pequeno sistema utilizando ferramentas e práticas adotadas no mercado
+
+### Visão Geral do Sistema
+
+Vamos desenvolver uma pequena API REST para gerenciamento de funcionários e departamentos, com os seguintes casos de uso:
+
+- Listar todos os funcionários cadastrados
+- Consultar os dados de um funcionário pelo seu ID
+- Cadastrar um novo funcionário no sistema
 
 ### Inicie configurando o projeto
 

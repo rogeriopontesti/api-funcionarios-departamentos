@@ -70,32 +70,32 @@ spring.jpa.properties.hibernate.format_sql=true
 #### Script SQL
 
 ```sql
--- Inserção dos departamentos com UUID
+-- =========  DEPARTAMENTOS  =========
 INSERT INTO departamentos (id, nome) VALUES
-('dpt-uuid-001', 'Superintendência de Transformação Digital'),
-('dpt-uuid-002', 'Superintendência de Tecnologia da Informação'),
-('dpt-uuid-003', 'Superintendência de Modernização e Gestão'),
-('dpt-uuid-004', 'Superintendência de Planejamento e Parcerias');
+('ae2d767d-fba1-48d7-ad97-a32b45319bcc', 'Superintendência de Transformação Digital'),
+('a1138bc4-71df-42b3-bf08-c244670a45e0', 'Superintendência de Tecnologia da Informação'),
+('714e607c-1f59-4f43-8219-84ea98022e34', 'Superintendência de Modernização e Gestão'),
+('b47d1c5c-4719-43ed-b995-fa84676576b1', 'Superintendência de Planejamento e Parcerias');
 
--- Inserção dos funcionários com UUID e novo campo qtdd_dependentes
+-- =========  FUNCIONÁRIOS  =========
 INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamento_id) VALUES
-('func-uuid-001', 'Ana Paula Silva', 2, 4500.00, 'Analista de Sistemas', 'dpt-uuid-001'),
-('func-uuid-002', 'Carlos Alberto Souza', 1, 5200.00, 'Desenvolvedor Backend', 'dpt-uuid-001'),
-('func-uuid-003', 'Fernanda Lima', 0, 4800.00, 'Analista de Transformação Digital', 'dpt-uuid-002'),
-('func-uuid-004', 'Marcos Vinícius Oliveira', 3, 6000.00, 'Coordenador de Projetos', 'dpt-uuid-002'),
+('d33e99b3-fdae-4e83-99f7-2daac7ac99d3', 'Ana Paula Silva', 2, 4500.00, 'Analista de Sistemas',                    'ae2d767d-fba1-48d7-ad97-a32b45319bcc'),
+('8fa0cba8-38ec-4f73-9e04-5f51255688d7', 'Carlos Alberto Souza', 1, 5200.00, 'Desenvolvedor Backend',                'ae2d767d-fba1-48d7-ad97-a32b45319bcc'),
+('2f6acc89-1226-4839-9538-0c70242dae4f', 'Fernanda Lima', 0, 4800.00, 'Analista de Transformação Digital',          'a1138bc4-71df-42b3-bf08-c244670a45e0'),
+('da0c2fc7-3bae-4ed1-9fcb-e7c21a43e7ad', 'Marcos Vinícius Oliveira', 3, 6000.00, 'Coordenador de Projetos',          'a1138bc4-71df-42b3-bf08-c244670a45e0'),
 
-('func-uuid-005', 'Juliana Andrade', 0, 5500.00, 'Especialista em Redes', 'dpt-uuid-002'),
-('func-uuid-006', 'Roberto Santos', 2, 4800.00, 'Administrador de Banco de Dados', 'dpt-uuid-002'),
-('func-uuid-007', 'Larissa Costa', 1, 6200.00, 'Arquiteta de Soluções', 'dpt-uuid-002'),
-('func-uuid-008', 'Diego Fernandes', 0, 7000.00, 'Gerente de Infraestrutura', 'dpt-uuid-002'),
+('f935ba5c-d33f-4b51-ba68-2945af74e3c2', 'Juliana Andrade', 0, 5500.00, 'Especialista em Redes',                    'a1138bc4-71df-42b3-bf08-c244670a45e0'),
+('a66ae08e-210e-404f-aca8-12a3898d300a', 'Roberto Santos', 2, 4800.00, 'Administrador de Banco de Dados',           'a1138bc4-71df-42b3-bf08-c244670a45e0'),
+('ac9fd7bb-4102-4aff-9dc5-136e03b354b9', 'Larissa Costa', 1, 6200.00, 'Arquiteta de Soluções',                     'a1138bc4-71df-42b3-bf08-c244670a45e0'),
+('74cff892-f5cb-438f-acaf-82ebcd566fd1', 'Diego Fernandes', 0, 7000.00, 'Gerente de Infraestrutura',                'a1138bc4-71df-42b3-bf08-c244670a45e0'),
 
-('func-uuid-009', 'Lucas Pereira', 2, 4600.00, 'Analista de Processos', 'dpt-uuid-002'),
-('func-uuid-010', 'Mariana Rocha', 1, 5000.00, 'Consultora de Gestão', 'dpt-uuid-003'),
-('func-uuid-011', 'Eduardo Gonçalves', 0, 5300.00, 'Coordenador Administrativo', 'dpt-uuid-003'),
-('func-uuid-012', 'Isabela Martins', 4, 5800.00, 'Especialista em Indicadores', 'dpt-uuid-003'),
+('3ce99085-bade-4b13-8b31-70c3319c99ca', 'Lucas Pereira', 2, 4600.00, 'Analista de Processos',                      'a1138bc4-71df-42b3-bf08-c244670a45e0'),
+('06d36320-70b0-4fd7-a469-7de47ab4111d', 'Mariana Rocha', 1, 5000.00, 'Consultora de Gestão',                       '714e607c-1f59-4f43-8219-84ea98022e34'),
+('311e8efd-50d9-4506-ad7d-1f8bc1f87930', 'Eduardo Gonçalves', 0, 5300.00, 'Coordenador Administrativo',             '714e607c-1f59-4f43-8219-84ea98022e34'),
+('bdc4f01f-ea07-45e5-b3c2-ea6810e0fcb5', 'Isabela Martins', 4, 5800.00, 'Especialista em Indicadores',              '714e607c-1f59-4f43-8219-84ea98022e34'),
 
-('func-uuid-013', 'Patrícia Almeida', 0, 5400.00, 'Analista de Planejamento', 'dpt-uuid-002'),
-('func-uuid-014', 'Renato Vieira', 2, 6000.00, 'Consultor de Parcerias', 'dpt-uuid-002'),
-('func-uuid-015', 'Amanda Nogueira', 1, 6500.00, 'Gerente de Planejamento Estratégico', 'dpt-uuid-004');
+('44e121a8-52ad-4502-9e55-a7690fd79a65', 'Patrícia Almeida', 0, 5400.00, 'Analista de Planejamento',                'a1138bc4-71df-42b3-bf08-c244670a45e0'),
+('d84f09a3-6b81-45be-888f-42030409d73f', 'Renato Vieira', 2, 6000.00, 'Consultor de Parcerias',                    'a1138bc4-71df-42b3-bf08-c244670a45e0'),
+('00329b62-c4d1-4c9f-bb4d-39a4ed7eddf5', 'Amanda Nogueira', 1, 6500.00, 'Gerente de Planejamento Estratégico',      'b47d1c5c-4719-43ed-b995-fa84676576b1');
 
 ```

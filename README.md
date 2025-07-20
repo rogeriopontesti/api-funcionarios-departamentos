@@ -4,7 +4,7 @@
 
 ## Realização
 
-[![rogeriopontesti dev](https://i.postimg.cc/GmMFXJ9q/rogeriopontesti200x48.png)](https://github.com/rogeriopontesti)
+[![rogeriopontesti dev](https://i.postimg.cc/9MptbzH0/rogeriopontesti.png)](https://github.com/rogeriopontesti)
 
 [![rogeriopontesti no Instagram](https://i.postimg.cc/J75T2knx/1298747-instagram-brand-logo-social-media-icon.png)](https://www.instagram.com/rogeriopontesti)
 [![rogeriopontesti no LinkedIn](https://i.postimg.cc/vH8PFZxs/317725-linkedin-social-icon.png)](https://www.linkedin.com/in/rogeriopontesti)

@@ -93,3 +93,9 @@ INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamen
 INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamento_id) VALUES ('d84f09a3-6b81-45be-888f-42030409d73f', 'Renato Vieira', 2, 6000.00, 'Consultor de Parcerias', 'a1138bc4-71df-42b3-bf08-c244670a45e0');
 INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamento_id) VALUES ('00329b62-c4d1-4c9f-bb4d-39a4ed7eddf5', 'Amanda Nogueira', 1, 6500.00, 'Gerente de Planejamento Estratégico', 'b47d1c5c-4719-43ed-b995-fa84676576b1');
 ```
+
+### Resultado
+
+#### Consulta funcionários pelo departamento
+
+[![Tabelas](https://i.postimg.cc/dtCHZbqx/resultado-final.png)](https://i.postimg.cc/dtCHZbqx/resultado-final.png)

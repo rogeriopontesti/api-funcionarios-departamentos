@@ -18,3 +18,10 @@
 - Ferramentas
     - IDE de sua preferência
     - Postman
+
+### Inicie configurando o projeto
+
+- [Spring Initializr](https://start.spring.io/)
+
+[![Spring Initializr](https://i.postimg.cc/wv8SzYDd/start-spring-io-funcionarios-departamentos.png)](https://start.spring.io/)
+

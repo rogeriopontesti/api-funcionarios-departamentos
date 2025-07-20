@@ -3,13 +3,21 @@
 > Exemplo de objeto relacional entre as tabelas funcionários e departamentos utilizando Spring Data JPA
 
 ## Realização
-    
-[rogeriopontesti dev](https://i.postimg.cc/GmMFXJ9q/rogeriopontesti200x48.png)
 
-[![rogerioppontesti no instagram](https://i.postimg.cc/hhhbJhVQ/1298747-instagram-brand-logo-social-media-icon.png)]
-[![rogeriopontesti no linkedin](https://i.postimg.cc/WtKm0j7W/317725-linkedin-social-icon.png)]
-[![rogeriopontesti no gmail](https://i.postimg.cc/4m965MLJ/7089163-gmail-google-icon.png)]
-[![rogeriopontesti no whatsapp](https://i.postimg.cc/SKtXsVDd/1783351-chatting-messages-social-media-whatsapp-internet-icon.png)]
+<!-- Logo / site principal -->
+[![rogeriopontesti dev](https://i.postimg.cc/GmMFXJ9q/rogeriopontesti200x48.png)](https://github.com/rogeriopontesti)
+
+<!-- Instagram -->
+[![rogeriopontesti no Instagram](https://i.postimg.cc/J75T2knx/1298747-instagram-brand-logo-social-media-icon.png)](https://www.instagram.com/rogeriopontesti)
+
+<!-- LinkedIn -->
+[![rogeriopontesti no LinkedIn](https://i.postimg.cc/vH8PFZxs/317725-linkedin-social-icon.png)](https://www.linkedin.com/in/rogeriopontesti)
+
+<!-- E‑mail -->
+[![rogeriopontesti no Gmail](https://i.postimg.cc/bN6mzf12/7089163-gmail-google-icon.png)](mailto:rogeriopontesti@gmail.com)
+
+<!-- WhatsApp (código do país 55 + DDD 48 + número) -->
+[![rogeriopontesti no WhatsApp](https://i.postimg.cc/SKtXsVDd/1783351-chatting-messages-social-media-whatsapp-internet-icon.png)](https://wa.me/5548991877781)
 
 ### Pré-requisitos
 

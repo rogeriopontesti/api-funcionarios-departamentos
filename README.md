@@ -33,6 +33,7 @@ Vamos desenvolver uma pequena API REST para gerenciamento de funcionários e dep
 - Listar todos os funcionários cadastrados
 - Consultar os dados de um funcionário pelo seu ID
 - Cadastrar um novo funcionário no sistema
+- Listar todos os funcionários de um departamento
 
 ### Inicie configurando o projeto
 
@@ -96,15 +97,15 @@ INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamen
 
 ### Faça os testes
 
-- Listar todos os funcionários
+- Listar todos os funcionários cadastrados
 
 [GET - http://localhost:8080/funcionarios](http://localhost:8080/funcionarios)
 
-- Buscar funcionário pelo ID
+- Consultar os dados de um funcionário pelo seu ID
 
 [GET - http://localhost:8080/funcionarios/d33e99b3-fdae-4e83-99f7-2daac7ac99d3](http://localhost:8080/funcionarios/d33e99b3-fdae-4e83-99f7-2daac7ac99d3)
 
-- Novo funcionário
+- Cadastrar um novo funcionário no sistema
 
 [POST - http://localhost:8080/funcionarios](http://localhost:8080/funcionarios)
 
@@ -138,7 +139,7 @@ INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamen
 
 - Listar todos os funcinários de um departamento
 
-[GET - localhost:8080/funcionarios/departamento/ae2d767d-fba1-48d7-ad97-a32b45319bcc](localhost:8080/funcionarios/departamento/ae2d767d-fba1-48d7-ad97-a32b45319bcc)
+[GET - http://localhost:8080/funcionarios/departamento/ae2d767d-fba1-48d7-ad97-a32b45319bcc](http://localhost:8080/funcionarios/departamento/ae2d767d-fba1-48d7-ad97-a32b45319bcc)
 
 
 #### Exemplo de saída

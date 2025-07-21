@@ -94,8 +94,55 @@ INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamen
 INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamento_id) VALUES ('00329b62-c4d1-4c9f-bb4d-39a4ed7eddf5', 'Amanda Nogueira', 1, 6500.00, 'Gerente de Planejamento Estratégico', 'b47d1c5c-4719-43ed-b995-fa84676576b1');
 ```
 
-### Resultado
+### Faça os testes
 
-#### Consulta funcionários pelo departamento
+- Listar todos os funcionários
+
+[GET - http://localhost:8080/funcionarios](http://localhost:8080/funcionarios)
+
+- Buscar funcionário pelo ID
+
+[GET - http://localhost:8080/funcionarios/d33e99b3-fdae-4e83-99f7-2daac7ac99d3](http://localhost:8080/funcionarios/d33e99b3-fdae-4e83-99f7-2daac7ac99d3)
+
+- Novo funcionário
+
+[POST - http://localhost:8080/funcionarios](http://localhost:8080/funcionarios)
+
+```json
+
+//Request
+{
+    "nome": "Joaquim da Silveira",
+    "salario": 4800.0,
+    "qtddDependentes": 2,
+    "cargo": "Analista de Sistemas",
+    "departamento": {
+        "id": "ae2d767d-fba1-48d7-ad97-a32b45319bcc"
+    }
+}
+
+//Result
+{
+    "id": "5f241074-8b5e-41f1-88b7-bbe9e32cf54c",
+    "nome": "Joaquim da Silveira",
+    "salario": 4800.0,
+    "qtddDependentes": 2,
+    "cargo": "Analista de Sistemas",
+    "departamento": {
+        "id": "ae2d767d-fba1-48d7-ad97-a32b45319bcc",
+        "nome": null
+    }
+}
+
+```
+
+- Listar todos os funcinários de um departamento
+
+[GET - localhost:8080/funcionarios/departamento/ae2d767d-fba1-48d7-ad97-a32b45319bcc](localhost:8080/funcionarios/departamento/ae2d767d-fba1-48d7-ad97-a32b45319bcc)
+
+
+#### Exemplo de saída
+
+Consulta funcionários pelo departamento
 
 [![Tabelas](https://i.postimg.cc/dtCHZbqx/resultado-final.png)](https://i.postimg.cc/dtCHZbqx/resultado-final.png)

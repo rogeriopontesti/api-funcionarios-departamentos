@@ -33,7 +33,8 @@ public class FuncionarioController {
 
     @PostMapping
     public Funcionario insert(@RequestBody Funcionario funcionario) {
-        return repository.save(funcionario);
+        Funcionario fnc = repository.save(funcionario);
+        return fnc;
     }
 
 }

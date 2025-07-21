@@ -144,6 +144,4 @@ INSERT INTO funcionarios (id, nome, qtdd_dependentes, salario, cargo, departamen
 
 #### Exemplo de saída
 
-Consulta funcionários pelo departamento
-
 [![Tabelas](https://i.postimg.cc/dtCHZbqx/resultado-final.png)](https://i.postimg.cc/dtCHZbqx/resultado-final.png)
